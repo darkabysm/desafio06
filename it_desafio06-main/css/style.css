@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../it_desafio06-main/fondo/round.png);
+}
+
+header {
+    background-color: rgb(100, 149, 237);
+    color: rgb(7, 252, 252);
+    text-align: center;
+}
+
+.titulosuperior {
+    background-color: #0A33ED;
+    padding: 10px;
+    letter-spacing: 5px;
+}
+
+/*Tuve que ponerle Lucida Sans porque no me sale Rubik*/
+.titulocentro{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 26px;
+    word-spacing: 8px;
+    letter-spacing: 5px;
+}
+
+.tituloinferior {
+    font-size: 20px;
+    background-color: #0DB7F7;
+    color: #FFF;
+    text-align: right;
+    padding: 10px;
+}
+
+section {
+    width: 80%;
+    background-color: #EAEDED;
+    color: rgb(128, 128, 128);
+    text-align: justify;
+    padding-bottom: 20px;
+    margin: 25px auto;
+}
+
+section h2 {
+    background-color: #0DB7F7;
+    color: #FFF;
+    padding: 10px 10px;
+}
+
+section ul {
+    margin-left: 70px;
+}
+
+section p {
+    padding: 0px 20px;
+    margin: 16px 0;
+}
+
+article {
+    margin: 20px auto;
+    text-align: center;
+}
+
+article img {
+    width: 60%;
+    height: 50%;
+    box-shadow: 15px 15px 20px gray;
+}
+
+footer {
+    background-color: #0DB7F7;
+    color: #FFF;
+    text-align: center;
+}
+
+footer h4 {
+    padding: 20px 0px;
+    letter-spacing: 5px;
+}
